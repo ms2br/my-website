@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="msbr">
+    <meta name="description" content="Resataran.Yemek Sifarisi">
+    <meta name="keywords" content="burger,pizza">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Home</title>
+</head>
+<body>
+    <!-- Header section start  -->
+  <header class="header">
+    <a href="#" class="logo">
+        <img src="images/logo.png" alt="logo">
+    </a>
+    <nav class="navbar">
+            <!-- --- Id ile Yonlendirme ---  -->
+            <!-- <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#products">Products</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+            <a href="#blog">Blogs</a> -->
+            
+            <!-- --- Normal Yonlendirme ---  -->
+            
+            <a href="home.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="products.html">Products</a>
+            <a href="review.html">Review</a>
+            <a href="contact.html">Contact</a>
+            <a href="blog.html">Blogs</a>
+    </nav>
+
+
+    <div class="buttons">
+        
+          <button onclick="search()" id="search-btn">
+            <i class="fas fa-search"></i>
+           </button>
+          <button onclick="shop()" id="cart-btn">
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+          <button  onclick="bars()" id="menu-btn">
+             <i class="fas fa-bars"></i>
+          </button>
+    </div>
+
+    <div class="search-form">
+       <input type="text" placeholder="search here" class="search-input" id="search-box">
+       <i class="fas fa-search"></i>
+    </div> 
+
+    <div class="cart-items-contianer">
+          <div class="cart-item"> 
+              <img src="images/menu-1.png" alt="menu">              
+              <i class="fas fa-times"></i>
+              <div class="content">
+                <h3>cart item 01</h3>
+                <p class="price">$15.99/-</p>
+              </div>
+          </div>
+          <div class="cart-item"> 
+            <img src="images/menu-2.png" alt="menu">              
+            <i class="fas fa-times"></i>
+            <div class="content">
+              <h3>cart item 02</h3>
+              <p class="price">$15.99/-</p>
+            </div>
+        </div>
+        <div class="cart-item"> 
+          <img src="images/menu-3.png" alt="menu">              
+          <i class="fas fa-times"></i>
+          <div class="content">
+            <h3>cart item 03</h3>
+            <p class="price">$15.99/-</p>
+          </div>
+      </div>
+      <div class="cart-item"> 
+        <img src="images/menu-4.png" alt="menu">              
+        <i class="fas fa-times"></i>
+        <div class="content">
+          <h3>cart item 04</h3>
+          <p class="price">$15.99/-</p>
+        </div>
+    </div>
+          <a href="#" class="btn">Checkout Now</a>
+    </div>
+  </header>
+  <!-- Home section start  -->
+   <section class="home sheader" id="home">
+     <div class="content">
+      <h3>EXPRESS HOME DELIVERY</h3>
+      <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Laboriosam Quos Repellendus Aliquam Quam Aperiam Quas?</p>
+          <a href="#" class="btn order">Order Now</a>
+      </div>
+   </section>
+  <!-- Home section end  -->
+  
+  <!-- Menu section start -->
+  <section class="menu" id="menu">
+     <h1 class="heading"> our <span>menu</span></h1>
+     <div class="box">
+       <div class="mini pizza">
+           <div class="box-head">
+            <img src="images/menu-1.png" alt="pizza">
+            <span>pizza</span>
+             <h3>6 Mini Pizzas</h3>
+              <h6>$104.99</h6>
+              <span>119.99</span>
+           </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">Add To Cart</a>
+        </div>
+       </div>
+       <div class="mini burger">
+        <div class="box-head">
+         <img src="images/menu-2.png" alt="burger">
+         <span>burger</span>       
+       <h3>5 Mini Burger</h3>
+       <h6>$99.99</h6>
+       <span>109.99</span>
+      </div>
+      <div class="box-bottom">
+         <a href="#" class="btn">Add To Cart</a>
+      </div>
+    </div>
+    <div class="mini pizza">
+      <div class="box-head">
+       <img src="images/menu-3.png" alt="pizza">
+       <span>Burger</span>       
+     <h3>2 Mixed Pizzas</h3>
+     <h6>$49.99</h6>
+     <span>59.99</span>
+    </div>
+    <div class="box-bottom">
+       <a href="#" class="btn">Add To Cart</a>
+    </div>
+  </div>
+  <div class="mini burger">
+    <div class="box-head">
+     <img src="images/menu-4.png" alt="burger">
+     <span>Pizza</span>       
+   <h3>3 Burgers</h3>
+   <h6>$79.99</h6>
+   <span>79.99</span>
+  </div>
+  <div class="box-bottom">
+     <a href="#" class="btn">Add To Cart</a>
+  </div>
+</div> 
+     </div>
+  </section>
+  <!-- Menu section End -->
+
+  <!-- PRODUCTS section Start -->
+
+  <section class="products" id="products">
+    <h1 class="heading">OUR<span>PRODUCTS</span></h1>
+    <div class="box">
+      <div class="mini">
+       <div class="head">
+         <small>Mini Burger</small>
+         <a href="#">Bacon Burger</a>
+       </div>
+       <div class="center">
+           <img src="images/product-1.png" alt="burger">
+       </div>
+       <div class="bottom">
+         <div class="bottom-left">
+            <h3>$6.00</h3>
+            <small>110gr / 300 Cal</small>
+         </div>
+         <div class="bottom-right">
+          <a href="#" class="add"><i class="fas fa-plus"></i></a>
+         </div>
+      </div>
+      </div>
+      <div class="mini">
+        <div class="head">
+          <small>Mini Burger</small>
+          <a href="#">Bacon Burger</a>
+        </div>
+        <div class="center">
+            <img src="images/product-2.png" alt="burger">
+        </div>
+        <div class="bottom">
+          <div class="bottom-left">
+             <h3>$6.00</h3>
+             <small>110gr / 300 Cal</small>
+          </div>
+          <div class="bottom-right">
+            <a href="#" class="add"><i class="fas fa-plus"></i></a>
+          </div>
+       </div>
+       </div>
+       <div class="mini dark">
+        <div class="head">
+          <small>Mini Burger</small>
+          <a href="#">Bacon Burger</a>
+        </div>
+        <div class="center">
+            <img src="images/dark-product.jpg" alt="burger">
+        </div>
+        <div class="bottom">
+          <div class="bottom-left">
+             <h3>$6.00</h3>
+             <small>110gr / 300 Cal</small>
+          </div>
+          <div class="bottom-right">
+            <a href="#" class="add"><i class="fas fa-plus"></i></a>
+          </div>
+       </div>
+       </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS section End -->
+
+  <!-- ABOUT AS section Start -->
+  <section class="about" id="about">
+    <h1 class="heading">About <span>Us</span></h1>
+   <div class="base"> 
+    <div class="img">
+     <img src="images/about.jpg" alt="about">
+    </div>
+    <div class="text">
+      <h3>What Is The Secret Recipe Of Our Burgers?</h3>
+      <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Quisquam Voluptatem Facere Amet Temporibus Culpa Sit Illo Earum Cupiditate Soluta Perferendis!</p>
+      <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Quisquam Voluptatem Facere Amet Temporibus Culpa Sit Illo Earum Cupiditate Soluta Perferendis!</p>
+      <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Quisquam Voluptatem Facere Amet Temporibus Culpa Sit Illo Earum Cupiditate Soluta Perferendis!</p>
+      <a href="#" class="btn">Learn More</a>
+    </div>
+  </div>
+  </section>
+  <!-- ABOUT AS section End -->
+  
+  <!-- CUSTOMER'S REVIEW Section Start  -->
+        <section class="review" id="review">
+          <div class="box">
+            <div class="comment one">
+                <div class="comment-top">
+                  <img src="images/quote.png" alt="quote">
+                </div>
+                <div class="comment-center">
+                  <p>
+                    Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.
+                    Autem Nulla Repellendus Similique Porro Explicabo, 
+                    Blanditiis Voluptatibus Obcaecati Harum Est, Eos Quo Modi Alias. 
+                    Possimus Odio Quam Ex Earum Ducimus! Officia.
+                  </p>
+                </div>
+                <div class="comment-bottom">
+                  <img src="images/avatar-1.png" alt="avatar">
+                  <h3>Jennifer Becker</h3>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="comment two">
+              <div class="comment-top">
+                <img src="images/quote.png" alt="quote">
+              </div>
+              <div class="comment-center">
+                <p>
+                  Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.
+                  Autem Nulla Repellendus Similique Porro Explicabo, 
+                  Blanditiis Voluptatibus Obcaecati Harum Est, Eos Quo Modi Alias. 
+                  Possimus Odio Quam Ex Earum Ducimus! Officia.
+                </p>
+              </div>
+              <div class="comment-bottom">
+                <img src="images/avatar-2.png" alt="avatar">
+                <h3>John Doe</h3>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+          </div>
+          <div class="comment tree">
+            <div class="comment-top">
+              <img src="images/quote.png" alt="quote">
+            </div>
+            <div class="comment-center">
+              <p>
+                Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.
+                Autem Nulla Repellendus Similique Porro Explicabo, 
+                Blanditiis Voluptatibus Obcaecati Harum Est, Eos Quo Modi Alias. 
+                Possimus Odio Quam Ex Earum Ducimus! Officia.
+              </p>
+            </div>
+            <div class="comment-bottom">
+              <img src="images/avatar-3.png" alt="avatar">
+              <h3>Lisa Arambula</h3>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+          </div>
+        </section>
+  <!-- CUSTOMER'S REVIEW Section End  -->
+
+  <!-- CONTACT US Section Start -->     
+  <section class="contact" id="contact">
+    <h1 class="heading">CONTACT <span>US</span></h1>    
+    <div class="form">  
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1504.7315163460266!2d28.984058779364084!3d41.03700230000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7f3ccc31d1f%3A0x484dd8d1243c9867!2sTaksim%20Meydan%C4%B1!5e0!3m2!1str!2str!4v1659549976222!5m2!1str!2str" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+        <form>
+          <h3>GET IN TOUCH</h3>
+          <div class="flex name">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="name">
+          </div>
+          <div class="flex email">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="email">
+          </div>
+          <div class="flex phone">
+            <i class="fas fa-phone"></i>
+            <input type="tel" placeholder="phone number">
+          </div>
+          <input type="submit" class="btn" value="Contact now">
+        </form>
+      </div>
+    </section>
+  <!-- CONTACT US Section End -->
+
+  <!-- OUR BLOG Section Start -->
+   <section class="blog" id="blog">
+      <h1 class="heading">OUR <span>BLOG</span></h1>
+      <div class="box">
+          <div class="burger">
+            <div class="blog-top">
+              <img src="images/blog-1.jpg" alt="burger">
+            </div>
+            <div class="blog-head">
+              <a href="#" class="head">How To Make Burgers?</a>
+              <span>By Admin / 10st May, 2020</span>
+              <p>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Temporibus, Laudantium!</p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </div>
+          <div class="burger">
+            <div class="blog-top">
+              <img src="images/blog-2.jpg" alt="burger">
+            </div>
+            <div class="blog-head">
+              <a href="#" class="head">How To Make Burgers?</a>
+              <span>By Admin / 10st May, 2020</span>
+              <p>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Temporibus, Laudantium!</p>
+              <a href="#" class="btn">Read More</a>
+            </div>            
+          </div>
+          <div class="burger">
+            <div class="blog-top">
+              <img src="images/blog-3.jpg" alt="burger">
+            </div>
+            <div class="blog-head">
+              <a href="#" class="head">How To Make Burgers?</a>
+              <span>By Admin / 10st May, 2020</span>
+              <p>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Temporibus, Laudantium!</p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </div>
+      </div>
+   </section>
+  <!-- OUR BLOG Section End -->
+
+  <!-- Footer Section Start -->
+    <footer class="footer">
+      <div class="search">
+        <input type="text" placeholder="Search" class="search-input">
+        <button class="btn">Search</button>
+      </div>
+      <div class="media">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+      </div>
+      <div class="link">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Menu</a>
+        <a href="#">Products</a>
+        <a href="#">Review</a>
+        <a href="#">Contact</a>
+        <a href="#">Blogs</a>
+      </div>
+      <div class="author">
+         Created By <span> Emin Basbayan</span> | All Rigths Reserved
+      </div>
+    </footer>
+    
+    <script src="script/script.js"></script>
+  <!-- Footer Section End -->
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Our Blog</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="logo">
+        </a>
+        <nav class="navbar">
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="menu.html">Menu</a>
+                <a href="product.html">Products</a>
+                <a href="review.html">Review</a>
+                <a href="contact.html">Contact</a>
+                <a href="blog.html" class="active">Blogs</a>
+        </nav>
+        <div class="buttons">
+        
+            <button onclick="search()" id="search-btn">
+              <i class="fas fa-search"></i>
+             </button>
+            <button onclick="shop()" id="cart-btn">
+              <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button  onclick="bars()" id="menu-btn">
+               <i class="fas fa-bars"></i>
+            </button>
+      </div>
+  
+      <div class="search-form">
+         <input type="text" placeholder="search here" class="search-input" id="search-box">
+         <i class="fas fa-search"></i>
+      </div> 
+  
+      <div class="cart-items-contianer">
+            <div class="cart-item"> 
+                <img src="images/menu-1.png" alt="menu">              
+                <i class="fas fa-times"></i>
+                <div class="content">
+                  <h3>cart item 01</h3>
+                  <p class="price">$15.99/-</p>
+                </div>
+            </div>
+            <div class="cart-item"> 
+              <img src="images/menu-2.png" alt="menu">              
+              <i class="fas fa-times"></i>
+              <div class="content">
+                <h3>cart item 02</h3>
+                <p class="price">$15.99/-</p>
+              </div>
+          </div>
+          <div class="cart-item"> 
+            <img src="images/menu-3.png" alt="menu">              
+            <i class="fas fa-times"></i>
+            <div class="content">
+              <h3>cart item 03</h3>
+              <p class="price">$15.99/-</p>
+            </div>
+        </div>
+        <div class="cart-item"> 
+          <img src="images/menu-4.png" alt="menu">              
+          <i class="fas fa-times"></i>
+          <div class="content">
+            <h3>cart item 04</h3>
+            <p class="price">$15.99/-</p>
+          </div>
+      </div>
+            <a href="#" class="btn">Checkout Now</a>
+      </div>
+    </header>
+    <section class="blog" id="blog">
+        <h1 class="heading">OUR <span>BLOG</span></h1>
+        <div class="box">
+            <div class="burger">
+              <div class="blog-top">
+                <img src="images/blog-1.jpg" alt="burger">
+              </div>
+              <div class="blog-head">
+                <a href="#" class="head">How To Make Burgers?</a>
+                <span>By Admin / 10st May, 2020</span>
+                <p>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Temporibus, Laudantium!</p>
+                <a href="#" class="btn">Read More</a>
+              </div>
+            </div>
+            <div class="burger">
+              <div class="blog-top">
+                <img src="images/blog-2.jpg" alt="burger">
+              </div>
+              <div class="blog-head">
+                <a href="#" class="head">How To Make Burgers?</a>
+                <span>By Admin / 10st May, 2020</span>
+                <p>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Temporibus, Laudantium!</p>
+                <a href="#" class="btn">Read More</a>
+              </div>            
+            </div>
+            <div class="burger">
+              <div class="blog-top">
+                <img src="images/blog-3.jpg" alt="burger">
+              </div>
+              <div class="blog-head">
+                <a href="#" class="head">How To Make Burgers?</a>
+                <span>By Admin / 10st May, 2020</span>
+                <p>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Temporibus, Laudantium!</p>
+                <a href="#" class="btn">Read More</a>
+              </div>
+            </div>
+        </div>
+     </section>
+    <footer class="footer">
+        <div class="search">
+            <input type="text" placeholder="Search" class="search-input">
+            <button class="btn">Search</button>
+          </div>
+          <div class="media">
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+          </div>
+          <div class="link">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Menu</a>
+            <a href="#">Products</a>
+            <a href="#">Review</a>
+            <a href="#">Contact</a>
+            <a href="#">Blogs</a>
+          </div>
+          <div class="author">
+             Created By <span> Emin Basbayan</span> | All Rigths Reserved
+          </div>
+    </footer>
+    <script src="script/script.js"></script>
+</body>
+</html>
